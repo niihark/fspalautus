@@ -31,7 +31,7 @@
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: The JSON file
+    server-->>browser: The JSON data
     deactivate server
     
     Note right of browser: The browser executes the callback function that renders the notes
